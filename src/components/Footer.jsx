@@ -119,6 +119,15 @@ export default function Footer() {
                   नेपाल राष्ट बैंक (NRB)
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://cibnepal.org.np/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  कर्जा सुचना केन्द्र (CIBN)
+                </a>
+              </li>
 
             </ul>
           </div>
