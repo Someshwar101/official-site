@@ -1,16 +1,16 @@
 import Note from "../../components/Note.jsx";
 import Umesh from "../../assets/accounting/Umesh.avif";
 import Rita from "../../assets/accounting/Rita.avif";
-import noFace from "../../assets/noFace.avif";
+import Indira from "../../assets/accounting/Indira.avif";
 
 import "./css/Committee.css";
 import "./css/ASC.css";
 
 export default function AccountingSupervisoryCommittee() {
   const members = [
-    { name: "Mr. Umesh Bhujel", role: "Coordinator", img: Umesh },
+    { name: "Mr. Umesh Bhujel", role: "Co-ordinator", img: Umesh },
     { name: "Mrs. Rita Magar", role: "Member", img: Rita },
-    { name: "Mr. Pawan Pajiyar", role: "Member", img: noFace },
+    { name: "Mrs. Indira Nepal", role: "Member", img: Indira },
   ];
 
   return (

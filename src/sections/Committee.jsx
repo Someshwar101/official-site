@@ -4,6 +4,7 @@ import Naresh from "../assets/committee/Naresh.avif";
 import Sankar from "../assets/committee/Sankar.avif";
 import Bipana from "../assets/committee/Bipana.avif";
 
+
 import "./css/Committee.css";
 
 export default function Committee() {

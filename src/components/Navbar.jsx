@@ -112,9 +112,8 @@ export default function Navbar() {
                     {item.label} <FaAngleDown className="dropdown-icon" />
                   </NavLink>
                   <ul
-                    className={`dropdown-menu ${
-                      openDropdown === index ? "open" : ""
-                    }`}
+                    className={`dropdown-menu ${openDropdown === index ? "open" : ""
+                      }`}
                   >
                     {item.subItems.map((subItem, subIndex) => (
                       <li key={subIndex}>

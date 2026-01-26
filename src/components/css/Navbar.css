@@ -22,7 +22,7 @@ nav {
 }
 
 /* Move up when header shrinks */
-.header-small+nav {
+.header-small + nav {
   top: var(--header-height-small);
 }
 
@@ -41,11 +41,11 @@ nav {
   white-space: nowrap;
 }
 
-.nav-links>li {
+.nav-links > li {
   position: relative;
 }
 
-.nav-links>li>a {
+.nav-links > li > a {
   display: flex;
   align-items: center;
   color: var(--dark-color);
@@ -59,8 +59,8 @@ nav {
   border-bottom: 5px solid transparent;
 }
 
-.nav-links>li>a:hover,
-.nav-links>li>a.active-link {
+.nav-links > li > a:hover,
+.nav-links > li > a.active-link {
   border-bottom: 5px solid var(--secondary-color);
   transform: scale(1.05);
   border-radius: 5px;
@@ -85,7 +85,7 @@ nav {
   border-radius: var(--radius-md);
 }
 
-.nav-links>li:hover .dropdown-menu,
+.nav-links > li:hover .dropdown-menu,
 .dropdown-menu.open {
   opacity: 1;
   visibility: visible;
@@ -125,15 +125,20 @@ nav {
   transition: top 0.28s ease;
 }
 
-.header-small+nav .mobile-menu {
+.header-small + nav .mobile-menu {
   top: calc(var(--header-height-small) + var(--space-2));
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* ---------------------- MOBILE STYLES ---------------------- */
 @media (max-width: 768px) {
-
-  .nav-links>li>a:hover,
-  .nav-links>li>a.active-link {
+  .nav-links > li > a:hover,
+  .nav-links > li > a.active-link {
     border-bottom: 3px solid var(--secondary-color);
     transform: translateY(-2px);
   }
@@ -147,7 +152,7 @@ nav {
   }
 
   /* Rotate arrow on hover */
-  .nav-links>li:hover>a::after {
+  .nav-links > li:hover > a::after {
     transform: rotate(180deg);
   }
 
@@ -178,17 +183,17 @@ nav {
     transform: translateX(0);
   }
 
-  .header-small+nav .nav-links {
+  .header-small + nav .nav-links {
     top: calc(var(--header-height-small));
     height: calc(100vh - var(--header-height-small));
   }
 
   /* Menu items */
-  .nav-links>li {
+  .nav-links > li {
     width: 100%;
   }
 
-  .nav-links>li>a {
+  .nav-links > li > a {
     padding: var(--space-3) var(--space-4);
     width: 100%;
     display: flex;
@@ -200,8 +205,8 @@ nav {
     font-size: var(--step-0);
   }
 
-  .nav-links>li>a:hover,
-  .nav-links>li>a.active-link {
+  .nav-links > li > a:hover,
+  .nav-links > li > a.active-link {
     border-bottom: 5px solid var(--secondary-color);
   }
 
@@ -228,5 +233,9 @@ nav {
     font-size: var(--step-0);
     background: transparent;
     border-bottom: none;
+  }
+
+  .nav-actions {
+    display: none;
   }
 }

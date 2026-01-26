@@ -5,6 +5,8 @@ import Bipana from "../../assets/committee/Bipana.avif";
 import Uma from "../../assets/committee/Uma.avif";
 import Phurbi from "../../assets/committee/Phurbi.avif";
 import Bhola from "../../assets/committee/Bhola.avif";
+import Mano from "../../assets/committee/Mano.avif";
+import Parwat from "../../assets/committee/Parwat.avif";;
 import noFace from "../../assets/noFace.avif";
 import "./css/Committee.css";
 
@@ -15,11 +17,12 @@ export default function Committee() {
     { name: "Mrs. Bipana Rai", role: "Vice-Chairman", img: Bipana },
     { name: "Mr. Sankar Shah", role: "Secretary", img: Sankar },
     { name: "Mr. Naresh Kumar Pariyar", role: "Treasurer", img: Naresh },
-    { name: "Mr. Dil Raj Shrestha", role: "Member", img: Dil },
     { name: "Mrs. Phurbi Sherpa", role: "Member", img: Phurbi },
     { name: "Mrs. Uma Devi Acharye", role: "Member", img: Uma },
-    { name: "Mrs. Punam Giri", role: "Member", img: noFace },
-    { name: "Mrs. Ankita Agrawal", role: "Member", img: noFace },
+    { name: "Mrs. Mano Devi Sardar", role: "Member", img: Mano },
+    { name: "Mr. Parwat Paudar", role: "Member", img: Parwat },
+    { name: "Mr. Dil Raj Shrestha", role: "Member", img: Dil },
+
   ];
 
   return (
