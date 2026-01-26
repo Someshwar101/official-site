@@ -67,7 +67,7 @@ export default function Footer() {
             <ul>
               <li>
                 <a
-                  href="https://www.nefscun.org.np/"
+                  href="https://www.nefscun.org.np"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://ncfnepal.com.np/"
+                  href="https://ncbl.coop"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -85,7 +85,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.deoc.gov.np/"
+                  href="https://www.deoc.gov.np"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -94,7 +94,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.ncra.gov.np/"
+                  href="https://ncra.gov.np"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -112,7 +112,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.nrb.org.np/"
+                  href="https://www.nrb.org.np"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -121,7 +121,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://cibnepal.org.np/"
+                  href="https://cibnepal.org.np"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
