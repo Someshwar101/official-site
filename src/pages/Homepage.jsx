@@ -17,7 +17,7 @@ export default function App() {
       <Carousel />
       <ScrollingText />
       {/* <Stats>*/}
-      <OrganizationProfile />
+
       <div className="section-divider"></div>
       <ChairmanShortMessage />
       <Committee />
