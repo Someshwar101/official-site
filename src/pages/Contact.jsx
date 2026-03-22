@@ -64,7 +64,7 @@ export default function Contact() {
               </span>
               <div>
                 <h4 className="address-title">Phone</h4>
-                <p className="address-text">+977 025-590143</p>
+                <p className="address-text">9709110697 9709110698 </p>
               </div>
             </div>
 
@@ -76,12 +76,12 @@ export default function Contact() {
                 <h4 className="address-title">WhatsApp</h4>
                 <p className="address-text">
                   <a
-                    href="https://wa.me/977025590143"
+                    href="https://wa.me/9709110698"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="whatsapp-link"
                   >
-                    +977 025-590143
+                    9709110698
                   </a>
                 </p>
               </div>
@@ -93,7 +93,7 @@ export default function Contact() {
               </span>
               <div>
                 <h4 className="address-title">Email</h4>
-                <p className="address-text">someshwarudrakshya@gmail.com</p>
+                <p className="address-text">someshwarudrakshya@gmail.com </p>
               </div>
             </div>
 
@@ -103,7 +103,13 @@ export default function Contact() {
               </span>
               <div>
                 <h4 className="address-title">Website</h4>
-                <p className="address-text">www.someshwarudrakshya.coop.np</p>
+                <p className="address-text">
+                  <a
+                    href="https://www.someshwarudrakshya.coop.np"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="Website-link"
+                  ></a>www.someshwarudrakshya.coop.np</p>
               </div>
             </div>
           </div>
