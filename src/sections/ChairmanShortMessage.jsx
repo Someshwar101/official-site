@@ -22,7 +22,7 @@ export default function ChairmanShortMessage() {
           <p className="message">
             It gives me great pleasure to extend my warm greetings to all our
             valued members. Our cooperative was founded with the vision of
-            fostering financial security, sustainable growth, and community
+            fostering financial security, sustainable growth and community
             empowerment. With your continued trust and participation, we
             remain committed to delivering transparent, reliable, and
             member-focused services.

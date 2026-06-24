@@ -53,7 +53,7 @@ export default function Contact() {
                 <p className="address-text">
                   Ramdhuni 5, Sunsari
                   <br />
-                  Province No. 1, Nepal
+                  Koshi Province, Nepal
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Contact() {
               </span>
               <div>
                 <h4 className="address-title">Phone</h4>
-                <p className="address-text">9709110697 9709110698 </p>
+                <p className="address-text">9709110697, 9709110698 </p>
               </div>
             </div>
 

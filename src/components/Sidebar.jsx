@@ -10,8 +10,8 @@ import "./css/Sidebar.css";
 export default function Sidebar() {
   const contacts = [
     {
-      text: "025-590143",
-      href: "tel:025590143",
+      text: "Contact : 9709110698",
+      href: "tel:+9779709110698",
       icon: <FaPhoneAlt />,
       className: "phone",
     },
@@ -24,14 +24,14 @@ export default function Sidebar() {
     },
     {
       text: "Chat on WhatsApp",
-      href: "https://wa.me/+9779709110697",
+      href: "https://wa.me/+9779709110698",
       icon: <FaWhatsapp />,
       className: "whatsapp",
       target: "_blank",
     },
     {
       text: "Message Us",
-      href: "https://www.facebook.com/messages/e2ee/t/9117423541683853",
+      href: "https://www.facebook.com/messages/t/100061172623506",
       icon: <FaFacebookMessenger />,
       className: "messenger",
       target: "_blank",

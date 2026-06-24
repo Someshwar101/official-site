@@ -25,23 +25,23 @@ export default function MessageFrom() {
           <p>
             It gives me great pleasure to extend my warm greetings to all our
             valued members. Our cooperative was founded with the vision of
-            fostering financial security, sustainable growth, and community
+            fostering financial security, sustainable growth and community
             empowerment. With your continued trust and participation, we remain
-            committed to delivering transparent, reliable, and member-focused
+            committed to delivering transparent, reliable and member-focused
             services.
           </p>
 
           <p>
             Over the years, our cooperative has grown not only in numbers but
             also in strength and values. Together, we have created an
-            institution that reflects the principles of unity, inclusiveness,
+            institution that reflects the principles of unity, inclusiveness
             and collective progress. Every achievement we have celebrated is the
             result of your unwavering faith and active participation.
           </p>
 
           <p>
             Looking ahead, our priority remains to build resilience, embrace
-            digital transformation, and provide opportunities that empower
+            digital transformation and provide opportunities that empower
             families and future generations. We are dedicated to expanding our
             services, strengthening community programs, and ensuring that each
             decision we take contributes positively to the lives of our members.
@@ -49,11 +49,11 @@ export default function MessageFrom() {
 
           <p>
             On behalf of the board and management team, I thank you once again
-            for your commitment, trust, and partnership. It is through our
+            for your commitment, trust and partnership. It is through our
             shared vision and collective effort that we can continue shaping a
             brighter and more prosperous future for all.
           </p>
-          <p>Let us move forward with unity, vision, and purpose.</p>
+          <p>Let us move forward with unity, vision and purpose.</p>
 
           <p className="signature">
             – Chairman
