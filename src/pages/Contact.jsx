@@ -169,7 +169,7 @@ export default function Contact() {
         <h3 className="map-title">Our Location</h3>
         <div className="map-container">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113880.099900366!2d87.225498!3d26.663722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6c2f92b5e7a5%3A0x6a5e9b3b3c8b0b0b!2sItahari%2C%20Sunsari%2C%20Nepal!5e0!3m2!1sen!2sus!4v1633024000000!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d67839.4315863115!2d87.18669753217087!3d26.66861694757181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef137d507f9ec5%3A0x34aa37a8a568f78!2z4KS44KWL4KSu4KWH4KS24KWN4KS14KSwIOCksOClgeCkpuCljeCksOCkvuCkleCljeCktyDgpLjgpL7gpJXgpYvgpLg!5e0!3m2!1sen!2snp!4v1785903422365!5m2!1sen!2snp"
             width="100%"
             height="400"
             style={{ border: 0 }}
