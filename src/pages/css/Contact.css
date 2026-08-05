@@ -40,6 +40,10 @@
   margin-bottom: 1.5rem;
 }
 
+h4.address-title {
+  margin-top: 0;
+}
+
 .address-item:last-child {
   margin-bottom: 0;
 }
